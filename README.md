@@ -1,3 +1,3 @@
 # funnySoundExtensiton
 
-A funny sound extension project. 
+A funny sound extension project!
