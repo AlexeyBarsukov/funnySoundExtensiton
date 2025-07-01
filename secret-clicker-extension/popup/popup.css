@@ -1,0 +1,44 @@
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--bg, #fff);
+  color: var(--fg, #222);
+  margin: 16px;
+  min-width: 220px;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+label, select, input[type="range"] {
+  display: block;
+  margin-bottom: 1em;
+}
+
+button {
+  background: #eee;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #ddd;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --bg: #222;
+    --fg: #eee;
+  }
+  button {
+    background: #333;
+    color: #eee;
+    border-color: #444;
+  }
+  button:hover {
+    background: #444;
+  }
+} 
